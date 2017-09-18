@@ -1,0 +1,19 @@
+{
+  "name": "Registrasi-Laravel",
+  "description": "Register use laravel framework and bootstrap validator",
+  "scripts": {
+    "postdeploy": "php index.php"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
