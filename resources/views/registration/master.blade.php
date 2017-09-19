@@ -154,6 +154,10 @@
               },
               notEmpty: {
                 message: 'Silahkan ulangi password Anda.'
+              },
+              identical: {
+                field: 'password',
+                message: 'Kata sandi tidak sama'
               }
             }
           },

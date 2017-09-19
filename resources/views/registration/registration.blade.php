@@ -27,7 +27,7 @@
     <form id="form_register" class="registrasi_form form-horizontal" role="form" action="{{ route('post-registration') }}" method="POST">
     {{csrf_field()}}
         <fieldset>
-        <div class="col-md-3 col-sm-12">    
+        <div class="col-md-3 col-sm-12">
           <p><strong>SUDAH PUNYA AKUN ?</strong></p>
           <p>
             <a href="/login">
@@ -56,7 +56,6 @@
             </div>
           </div>
           <!-- /#membership -->
-          <div class="clearfix"></div>
           <hr>
 
           <span class="text-center">
@@ -69,7 +68,7 @@
               <input type="text" class="form-control" placeholder="Referal" name="friend_code">
             </div>
               {!! $errors->first('friend_code', '<p class="help-block">:message</p>') !!}
-            
+
             <hr>
           </div>
         </div>
